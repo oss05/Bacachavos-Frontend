@@ -1,0 +1,67 @@
+.login-main {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../assets/img/login-bg.png);
+    background-size: cover;
+    display: flex;
+}
+
+.login-vendedor {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2em;
+}
+
+.login-vendedor > p {
+    font-size: 36px;
+    color: #fff;
+    text-align: center;
+}
+
+.login-vendedor > h2 {
+    font-size: 54px;
+    color: #3ACBC7;
+    text-align: center;
+    font-weight: 300;
+}
+
+.login {
+    width: 60%;
+    height: 100%;
+    background-color: hsla(0, 0%, 100%, 0.200);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.login > h1 {
+    font-size: 96px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+}
+
+.login > h1 span {
+    text-transform: capitalize;
+    font-size: 55px;
+}
+
+.login > img {
+    width: 370px;
+    height: 305px;
+}
+
+.login > a {
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+

@@ -1,0 +1,11 @@
+.default-button {
+    border: solid 3px #3ACBC7;
+    width: 55%;
+    height: 70px;
+    border-radius: 50px;
+    background-color: transparent;
+    color: #3ACBC7;
+    font-size: 36px;
+    outline: none;
+    cursor: pointer;
+}
